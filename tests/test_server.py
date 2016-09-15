@@ -12,7 +12,7 @@ from nose.tools import eq_, ok_
 
 from fabric.network import ssh
 
-from server import FakeSFTPServer
+from .server import FakeSFTPServer
 
 
 class AttrHolder(object):

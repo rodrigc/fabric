@@ -10,8 +10,8 @@ from fabric import utils  # For patching
 from fabric.api import local, quiet
 from fabric.context_managers import settings, hide
 from fabric.colors import magenta, red
-from mock_streams import mock_streams
-from utils import aborts, FabricTest, assert_contains, assert_not_contains
+from .mock_streams import mock_streams
+from .utils import aborts, FabricTest, assert_contains, assert_not_contains
 
 
 @mock_streams('stderr')

@@ -18,10 +18,10 @@ from fabric.exceptions import CommandTimeout
 from fabric.sftp import SFTP
 
 from fabric.decorators import with_settings
-from mock_streams import mock_streams
-from utils import (FabricTest, aborts, eq_, with_patched_input, eq_contents, patched_context,
+from .mock_streams import mock_streams
+from .utils import (FabricTest, aborts, eq_, with_patched_input, eq_contents, patched_context,
                    assert_contains)
-from server import server, FILES
+from .server import server, FILES
 
 #
 # require()

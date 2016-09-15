@@ -4,9 +4,9 @@ from fabric.operations import run
 from fabric.state import env
 from fabric.tasks import execute
 
-from utils import FabricTest, eq_, aborts
-from mock_streams import mock_streams
-from server import server, RESPONSES, USER, HOST, PORT
+from .utils import FabricTest, eq_, aborts
+from .mock_streams import mock_streams
+from .server import server, RESPONSES, USER, HOST, PORT
 
 # TODO: move this into test_tasks? meh.
 

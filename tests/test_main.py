@@ -16,7 +16,7 @@ import fabric.state
 from fabric.tasks import Task, WrappedCallableTask
 from fabric.task_utils import _crawl, crawl, merge
 
-from utils import FabricTest, fabfile, path_prefix, aborts
+from .utils import FabricTest, fabfile, path_prefix, aborts
 
 
 # Stupid load_fabfile wrapper to hide newly added return value.

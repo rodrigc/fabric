@@ -6,8 +6,8 @@ from fabric.contrib.files import upload_template, contains
 from fabric.context_managers import hide, lcd
 from fabric.operations import get
 
-from utils import FabricTest, eq_contents
-from server import server
+from .utils import FabricTest, eq_contents
+from .server import server
 
 
 class TestContrib(FabricTest):

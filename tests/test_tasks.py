@@ -10,9 +10,9 @@ from fabric.main import display_command
 from fabric.api import run, env, settings, hosts, roles, hide, parallel, task, runs_once, serial
 from fabric.exceptions import NetworkError
 
-from mock_streams import mock_streams
-from utils import FabricTest, aborts, support
-from server import server
+from .mock_streams import mock_streams
+from .utils import FabricTest, aborts, support
+from .server import server
 
 
 def test_base_task_provides_undefined_name():

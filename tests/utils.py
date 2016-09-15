@@ -17,8 +17,8 @@ from fabric.state import env, output
 from fabric.sftp import SFTP
 from fabric.network import to_dict
 
-from server import PORT, PASSWORDS, USER, HOST
-from mock_streams import mock_streams
+from .server import PORT, PASSWORDS, USER, HOST
+from .mock_streams import mock_streams
 
 
 class FabricTest(object):

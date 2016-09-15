@@ -8,9 +8,9 @@ from fabric.state import env, output
 from fabric.context_managers import (cd, settings, lcd, hide, shell_env, quiet,
     warn_only, prefix, path)
 from fabric.operations import run, local, _prefix_commands
-from mock_streams import mock_streams
-from utils import FabricTest
-from server import server
+from .mock_streams import mock_streams
+from .utils import FabricTest
+from .server import server
 
 
 #

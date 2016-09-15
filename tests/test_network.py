@@ -14,10 +14,10 @@ from fabric.tasks import execute
 from fabric.api import parallel
 from fabric import utils # for patching
 
-from mock_streams import mock_streams
-from utils import (FabricTest, eq_, password_response, aborts, support, patched_input,
+from .mock_streams import mock_streams
+from .utils import (FabricTest, eq_, password_response, aborts, support, patched_input,
                    assert_contains)
-from server import (server, RESPONSES, PASSWORDS, CLIENT_PRIVKEY, USER,
+from .server import (server, RESPONSES, PASSWORDS, CLIENT_PRIVKEY, USER,
     CLIENT_PRIVKEY_PASSPHRASE)
 
 
